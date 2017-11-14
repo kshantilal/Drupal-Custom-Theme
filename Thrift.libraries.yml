@@ -1,0 +1,12 @@
+global-css:
+  css:
+    theme:
+      assets/css/bootstrap.min.css: {}
+      assets/css/Custom_Thrift.style.css: {}
+
+global-js:
+  js:
+    assets/js/bootstrap.min.js: {}
+    assets/js/Custom_Thrift.script.js: {}
+  dependencies:
+   - core/jquery
