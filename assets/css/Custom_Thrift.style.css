@@ -1,9 +1,15 @@
 .nav-center{
 	float: right;
-	margin-top: 100px;
-
 }
 
 .navbar-nav>li>a{
 	color: #E65800;
+}
+
+.top{
+	margin-top: 50px;
+}
+
+.logo-size{
+	width: 20%;
 }

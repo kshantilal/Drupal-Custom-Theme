@@ -1,0 +1,21 @@
+<div class="container">
+	{% include directory ~ '/partials/header.html.twig' %} <!-- This is looking for a file called header.html.twig which has all the header information -->
+	{% include directory ~ '/partials/navbar.html.twig' %}
+
+
+	<main role="main">
+		<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+		<div class="row">
+			<!-- Main Content -->
+			<div class="col-xs-12 col-sm-8">
+				<div class="layout-content">
+					{{ page.content }}
+				</div>{# /.layout-content #}
+
+			</div>
+		</div>
+	</main>
+
+	{% include directory ~ '/partials/footer.html.twig' %}
+</div>{# /.layout-container #}

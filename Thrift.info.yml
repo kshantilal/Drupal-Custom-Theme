@@ -14,3 +14,4 @@ stylesheets-remove:
 regions:
  header: 'Header'
  navbar: 'Main navbar'
+ content: 'Content'
