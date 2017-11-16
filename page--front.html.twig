@@ -1,25 +1,19 @@
 {% include directory ~ '/partials/header.html.twig' %} 
-
-<div class="container">
-	{% include directory ~ '/partials/navbar.html.twig' %}
-
-	<main role="main">
-		<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-		
-		<div class="row">
-			<div class="col-xs-8">
-				<h2>Not working</h2>
+{% include directory ~ '/partials/navbar.html.twig' %}
+<div class="row">
+	<div class="container">
+		<main role="main">
+			<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="layout-content">
+						<div class="top">{{ page.content }}</div>
+					</div>
+				</div>
 			</div>
-
-			<div class="col-xs-4">
-				<div class="layout-content">
-					
-					<div class="top">{{ page.content }}</div>
-					
-				</div>{# /.layout-content #}
-			</div>
-		</div>
-	</main>
-
-	{% include directory ~ '/partials/footer.html.twig' %} 
-</div>{# /.layout-container #}
+		</main>
+		{% include directory ~ '/partials/footer.html.twig' %} 
+	</div>{# /.layout-container #}
+</div>
+	

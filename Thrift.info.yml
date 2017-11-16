@@ -15,3 +15,4 @@ regions:
  header: 'Header'
  navbar: 'Main navbar'
  content: 'Content'
+ sidebar: 'Home image'
